@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "60725921868",
+    "project_id": "kenya-yetu-bf683",
+    "storage_bucket": "kenya-yetu-bf683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60725921868:android:757ebcd2f2d9d960a1cce9",
+        "android_client_info": {
+          "package_name": "com.example.kenya_yetu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60725921868-qcd914bnfiqhkcrvgj75haett2msqnmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7WWh2go8C6wqbKMiGCwjP87ycArAK3zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60725921868-qcd914bnfiqhkcrvgj75haett2msqnmk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "60725921868-r5m1vrsvvsh02vopj2raigljo4j47800.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kenyaYetu"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60725921868:android:e39cab7fd0c56e56a1cce9",
+        "android_client_info": {
+          "package_name": "com.example.kenya_yetu_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60725921868-qcd914bnfiqhkcrvgj75haett2msqnmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7WWh2go8C6wqbKMiGCwjP87ycArAK3zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60725921868-qcd914bnfiqhkcrvgj75haett2msqnmk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "60725921868-r5m1vrsvvsh02vopj2raigljo4j47800.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kenyaYetu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
