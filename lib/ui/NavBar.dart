@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kenya_yetu_admin/const/AppColors.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:kenya_yetu_admin/ui/splash_screen.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});
@@ -43,9 +44,15 @@ User? _currentUser;
             ),
           ),
 
-          const ListTile(
-            title: Text('Exit'),
-            leading: Icon(Icons.exit_to_app),
+          InkWell(
+            child: const ListTile(
+              title: Text('Exit'),
+              leading: Icon(Icons.exit_to_app),
+            ),
+            onTap: () {
+              Navigator.push(
+            context, MaterialPageRoute(builder: (_) => SplashScreen()));
+            },
           ),
         ],
       ),
